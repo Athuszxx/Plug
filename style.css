@@ -1,3 +1,7 @@
 body{
     background:color(srgb red )
 }
+h1{
+    font-style: italic;
+    color:blueviolet
+}
