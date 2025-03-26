@@ -1,10 +1,10 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(240, 240, 240);
 }
 h1{
     text-align: center;
     font-style: italic;
-    color:blueviolet;
+    color:rgb(238, 15, 15);
 }
 img{
     text-align: center;
