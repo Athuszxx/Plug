@@ -1,6 +1,5 @@
 body {
     background-color: #f7f7f7; /* tom neutro claro para destacar as cores do clube */
-    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
@@ -12,18 +11,21 @@ h1 {
     font-size: 2.5em;
     border-bottom: 3px solid #c20000;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 h2 {
     color: #000000; /* preto clássico */
     font-weight: bold;
     margin-top: 30px;
+    text-align: left;
 }
 
 h3 {
     color: #c20000;
     font-weight: bold;
     margin-top: 20px;
+    text-align: left;
 }
 
 header {
@@ -53,7 +55,7 @@ header a:hover {
     margin: 20px auto;
 }
 
-.lista2 {
+.lista {
     background-color: #e6e6e6;
     border-left: 5px solid #c20000;
     padding: 15px;
@@ -63,12 +65,33 @@ header a:hover {
     border-radius: 6px;
 }
 
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
 .Títulos2 {
     color: #990000;
     font-weight: bold;
     line-height: 1.6;
+    margin-top: 15px;
 }
 
-ul li {
-    margin-bottom: 8px;
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer a {
+    background-color: #c20000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #990000;
 }
